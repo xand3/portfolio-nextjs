@@ -6,10 +6,18 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    colors: {
-      'bluebg': "#11151C",
-      'whitet' : "#E9E5DD"
+    extend: {
+      colors: {
+        'bluebg': "#11151C",
+        'primarytext' : "#E9E5DD",
+        'hovertext': "#7D9C9C",
+        'teste': "#f00"
+      },
+      spacing: {
+        '128': '720px'
+      }
     }
+    
   },
   plugins: [],
 }
