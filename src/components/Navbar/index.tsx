@@ -1,9 +1,9 @@
 const Navbar = () => {
   return (
-    <nav className="bg-zinc-500 h-16">
+    <nav className="h-16">
       <div className="flex justify-between px-8 items-center h-16">
         <div className="flex">
-          <p>ALEXANDRE BASTOS</p>
+          <p>ALEXANDRE<br/> BASTOS</p>
         </div>
         <div>
           <ul className="flex">
