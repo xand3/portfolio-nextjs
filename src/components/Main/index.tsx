@@ -52,6 +52,14 @@ const Main = () => {
                   height={25}
                 />
               </a>
+              <a href="mailto:xande.dev@outlook.com" target="_blank">
+                <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
+                  src="/email.png"
+                  alt="beacons"
+                  width={25}
+                  height={25}
+                />
+              </a>
               <a href="https://beacons.ai/xande_dev" target="_blank">
                 <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                   src="/links.png"
