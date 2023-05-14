@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <header>
         <Navbar />
-        <Resume />
+        <Main />
       </header>
     </>
   )

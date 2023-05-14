@@ -13,10 +13,55 @@ const Main = () => {
             currently open to work.
           </p>
 
-          <div className="flex py-14 max-lg:py-3">
-            <a href="" className="hover:text-hovertext">
+          <div className="flex max-lg:py-3">
+          <div className="flex flex-col py-5 max-lg:py-3">
+            <a href="" className="hover:text-hovertext py-5">
               see more about me
             </a>
+            <div className="flex space-x-3">
+              <a href="https://github.com/xand3" target="_blank">
+                <Image 
+                src="/Github.png" 
+                alt="github" 
+                width={25} 
+                height={25} 
+                />
+              </a>
+              <a href="https://www.instagram.com/xande.log/?igshid=OTk0YzhjMDVlZA%3D%3D" target="_blank">
+                <Image
+                  src="/instagram.png"
+                  alt="Instagram"
+                  width={25}
+                  height={25}
+                />
+              </a>
+              <a href="https://www.linkedin.com/in/alexandr3-bastos/" target="_blank">
+                <Image
+                  src="/linkedin.png"
+                  alt="linkedin"
+                  width={25}
+                  height={25}
+                />
+              </a>
+              <a href="https://twitter.com/xand3bastos" target="_blank">
+                <Image
+                  src="/twitter.png"
+                  alt="Twitter"
+                  width={25}
+                  height={25}
+                />
+              </a>
+              <a href="https://beacons.ai/xande_dev" target="_blank">
+                <Image
+                  src="/links.png"
+                  alt="beacons"
+                  width={25}
+                  height={25}
+                />
+              </a>
+            </div>
+          </div>
+            
           </div>
         </div>
         <div className="flex xl:w-max justify-center object-none max-lg:h-60">
