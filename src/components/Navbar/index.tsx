@@ -6,7 +6,7 @@ const Navbar = () => {
           <p className="hover:text-hovertext" >ALEXANDRE<br/> BASTOS</p>
         </div>
         <div>
-          <ul className="flex">
+          <ul className="flex max-md:flex-col">
             <li className="px-2">
               <a className="hover:text-hovertext" href="">ABOUT</a>
             </li>
