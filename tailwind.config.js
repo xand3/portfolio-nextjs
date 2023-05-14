@@ -14,10 +14,10 @@ module.exports = {
         'teste': "#f00"
       },
       spacing: {
-        '128': '720px'
+        '128': '720px',
+        'tablet': '450px'
       }
     }
-    
   },
   plugins: [],
 }

@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const Main = () => {
   return (
-    <main className="flex flex-col px-40 w-screen space-y-10 h-128">
-      <div className="flex flex-row justify-around">
-        <div className="flex flex-col h-128 justify-center">
+    <main className="flex flex-col px-40 space-y-10 h-128">
+      <div className="flex flex-row justify-around max-lg:flex-col">
+        <div className="flex flex-col h-128 justify-center max-lg:h-tablet">
           <h1 className="text-5xl font-light">Hi! I&apos;m Alexandre Bastos</h1>
 
           <p className="text-1xl py-10">
@@ -14,14 +14,14 @@ const Main = () => {
             currently open to work.
           </p>
 
-          <div className="flex py-14">
+          <div className="flex py-14 max-lg:py-3">
             <a href="" className="hover:text-hovertext">
               see more about me
             </a>
           </div>
         </div>
-        <div>
-          <Image
+        <div className="flex xl:w-max justify-center object-none max-lg:h-60">
+          <Image className="object-cover max-lg:object-contain max-lg:h-tablet"
             src="/astronaut.png"
             alt="astrounaut"
             width={650}
