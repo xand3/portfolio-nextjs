@@ -22,7 +22,7 @@ const Main = () => {
             <div className="flex space-x-3">
               <a href="https://github.com/xand3" target="_blank">
                 <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-                src="/Github.png" 
+                src="/GitHub.png" 
                 alt="github" 
                 width={25} 
                 height={25} 
