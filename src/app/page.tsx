@@ -1,14 +1,9 @@
-import Navbar from "@/components/Navbar"
-import Main from "@/components/Main"
-import Resume from "@/components/Resume"
+import Main from "@/components/Main";
 
 export default function Home() {
   return (
     <>
-      <header>
-        <Navbar />
-        <Main />
-      </header>
+      <Main />
     </>
-  )
+  );
 }

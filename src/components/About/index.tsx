@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Resume = () => {
+const About = () => {
   return (
     <div className="flex flex-col px-40 space-y-10 h-128">
       <div className="flex flex-row justify-around max-lg:flex-col">
@@ -35,4 +35,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default About;
