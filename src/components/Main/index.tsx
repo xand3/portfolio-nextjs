@@ -16,12 +16,12 @@ const Main = () => {
 
           <div className="flex max-lg:py-3">
           <div className="flex flex-col py-5 max-lg:py-3">
-            <a href="" className="hover:text-hovertext py-5">
+            <a href="" className="cool-link py-5">
               see more about me
             </a>
             <div className="flex space-x-3">
               <a href="https://github.com/xand3" target="_blank">
-                <Image 
+                <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                 src="/Github.png" 
                 alt="github" 
                 width={25} 
@@ -29,7 +29,7 @@ const Main = () => {
                 />
               </a>
               <a href="https://www.instagram.com/xande.log/?igshid=OTk0YzhjMDVlZA%3D%3D" target="_blank">
-                <Image
+                <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                   src="/instagram.png"
                   alt="Instagram"
                   width={25}
@@ -37,7 +37,7 @@ const Main = () => {
                 />
               </a>
               <a href="https://www.linkedin.com/in/alexandr3-bastos/" target="_blank">
-                <Image
+                <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                   src="/linkedin.png"
                   alt="linkedin"
                   width={25}
@@ -45,7 +45,7 @@ const Main = () => {
                 />
               </a>
               <a href="https://twitter.com/xand3bastos" target="_blank">
-                <Image
+                <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                   src="/twitter.png"
                   alt="Twitter"
                   width={25}
@@ -53,7 +53,7 @@ const Main = () => {
                 />
               </a>
               <a href="https://beacons.ai/xande_dev" target="_blank">
-                <Image
+                <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                   src="/links.png"
                   alt="beacons"
                   width={25}
