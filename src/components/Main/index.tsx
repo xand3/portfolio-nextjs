@@ -24,48 +24,48 @@ const Main = () => {
                 <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                 src="/GitHub.png" 
                 alt="github" 
-                width={25} 
-                height={25} 
+                width={35} 
+                height={35} 
                 />
               </a>
               <a href="https://www.instagram.com/xande.log/?igshid=OTk0YzhjMDVlZA%3D%3D" target="_blank">
                 <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                   src="/instagram.png"
                   alt="Instagram"
-                  width={25}
-                  height={25}
+                  width={35}
+                  height={35}
                 />
               </a>
               <a href="https://www.linkedin.com/in/alexandr3-bastos/" target="_blank">
                 <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                   src="/linkedin.png"
                   alt="linkedin"
-                  width={25}
-                  height={25}
+                  width={35}
+                  height={35}
                 />
               </a>
               <a href="https://twitter.com/xand3bastos" target="_blank">
                 <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                   src="/twitter.png"
                   alt="Twitter"
-                  width={25}
-                  height={25}
+                  width={35}
+                  height={35}
                 />
               </a>
               <a href="mailto:xande.dev@outlook.com" target="_blank">
                 <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                   src="/email.png"
                   alt="beacons"
-                  width={25}
-                  height={25}
+                  width={35}
+                  height={35}
                 />
               </a>
               <a href="https://beacons.ai/xande_dev" target="_blank">
                 <Image className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                   src="/links.png"
                   alt="beacons"
-                  width={25}
-                  height={25}
+                  width={35}
+                  height={35}
                 />
               </a>
             </div>
