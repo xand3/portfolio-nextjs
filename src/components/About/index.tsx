@@ -1,4 +1,5 @@
 import Img from "../Image/index";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -18,11 +19,65 @@ const About = () => {
             knowledge through bootcamps and courses related to programming and
             development.
           </p>
-
-          
+          <div className="flex flex-col space-y-2">
+            <div>
+              <p>My Stack:</p>
+            </div>
+            <div className="flex space-x-4">
+            <Image
+                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt="CSS3"
+                width={35}
+                height={35}
+              />
+            <Image
+                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                alt="HTML5"
+                width={35}
+                height={35}
+              />
+              <Image
+                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt="JavaScript"
+                width={35}
+                height={35}
+              />
+              <Image
+                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                alt="TypeScript"
+                width={35}
+                height={35}
+              />
+              <Image
+                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+                alt="Reactjs"
+                width={35}
+                height={35}
+              />
+              <Image
+                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                alt="NodeJS"
+                width={35}
+                height={35}
+              />
+              <Image
+                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                alt="Git"
+                width={35}
+                height={35}
+              />
+            </div>
+          </div>
         </div>
         <div className="">
-          <Img width={600}/>
+          <Img width={600} />
         </div>
       </div>
     </div>
