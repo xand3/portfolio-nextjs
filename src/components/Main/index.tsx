@@ -6,9 +6,9 @@ const Main = () => {
     <main className="flex flex-col px-40 space-y-10 h-128 max-lg:items-center">
       <div className="flex flex-row justify-between max-lg:flex-col ">
         <div className="flex flex-col h-128 justify-center max-lg:h-tablet">
-          <h1 className="text-5xl font-light max-lg:text-4xl">Hi! I&apos;m Alexandre Bastos</h1>
+          <h1 className="text-5xl font-light max-lg:text-2xl max-lg:py-5">Hi! I&apos;m Alexandre Bastos</h1>
 
-          <p className="text-1xl py-10 text-justify">
+          <p className="text-1xl py-10 text-justify max-lg:w-80">
             Software engineer with experience in the Javascript/TypeScript
             stack, technology enthusiast, always seeking to learn new technologies,
             currently open to work.

@@ -15,7 +15,8 @@ module.exports = {
       },
       spacing: {
         '128': '720px',
-        'tablet': '450px'
+        'tablet': '450px',
+        'mobile': '330px'
       }
     }
   },

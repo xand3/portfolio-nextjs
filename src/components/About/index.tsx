@@ -3,14 +3,14 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="flex flex-col px-40 space-y-10 h-128 max-lg:items-center">
+    <div className="max-lg:py-5 flex flex-col px-40 space-y-10 h-128 max-lg:items-center">
       <div className="flex flex-row justify-around max-lg:flex-col">
-        <div className="flex flex-col h-128 justify-center max-lg:h-tablet w-128 max-lg:w-tablet">
-          <h1 className="text-5xl font-light max-lg:text-4xl">
+        <div className="flex flex-col h-128 justify-center max-lg:h-tablet w-128 max-lg:w-mobile max-lg:items-center">
+          <h1 className="text-5xl font-light max-lg:text-2xl">
             Hi! I&apos;m Alexandre Bastos
           </h1>
 
-          <p className="text-1xl py-10 text-justify">
+          <p className="text-1xl py-10 text-justify max-lg:text-sm max-lg:w-72">
             Hello, my name is Alexandre Bastos. I consider myself a technology
             enthusiast and am always seeking to learn new technologies to
             understand how applications really work. Currently, I am studying
@@ -23,7 +23,7 @@ const About = () => {
             <div>
               <p>My Stack:</p>
             </div>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 max-lg:space-x-2">
             <Image
                 className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
