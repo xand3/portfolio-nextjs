@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Main = () => {
   return (
-    <main className="flex flex-col px-40 space-y-10 h-128">
+    <main className="flex flex-col px-40 space-y-10 h-128 max-lg:items-center">
       <div className="flex flex-row justify-between max-lg:flex-col ">
         <div className="flex flex-col h-128 justify-center max-lg:h-tablet">
           <h1 className="text-5xl font-light max-lg:text-4xl">Hi! I&apos;m Alexandre Bastos</h1>
