@@ -4,7 +4,6 @@ import LeftArea from "@/components/LeftArea";
 import ImgAstronaut from "@/components/Img";
 import Image from "next/image";
 
-
 export default function AboutPage() {
   return (
     <MainArea>
@@ -22,24 +21,32 @@ export default function AboutPage() {
           development.
         </p>
         <div className="flex flex-col space-y-2">
-            <div>
-              <p>My Stack:</p>
-            </div>
-            <div className="grid grid-cols-7 w-auto gap-2">
+          <div>
+            <p>My Stack:</p>
+          </div>
+
+          <div className="grid grid-cols-2 w-auto gap-5">
+            <div className="flex space-x-3 justify-left items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
               <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                alt="CSS3"
-                width={35}
-                height={35}
-              />
-              <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                 alt="HTML5"
                 width={35}
                 height={35}
               />
+              <p className="">HTML 5</p>
+            </div>
+
+            <div className="flex space-x-3 justify-left items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
+              <Image
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt="CSS3"
+                width={35}
+                height={35}
+              />
+              <p className="">CSS 3</p>
+            </div>
+
+            <div className="flex space-x-3 justify-left items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
               <Image
                 className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -47,13 +54,20 @@ export default function AboutPage() {
                 width={35}
                 height={35}
               />
+              <p className="">JavaScript</p>
+            </div>
+
+            <div className="flex space-x-3 justify-left  items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
               <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
                 alt="TypeScript"
                 width={35}
                 height={35}
               />
+              <p className="">TypeScript</p>
+            </div>
+
+            <div className="flex space-x-3 justify-left  items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
               <Image
                 className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
@@ -61,6 +75,10 @@ export default function AboutPage() {
                 width={35}
                 height={35}
               />
+              <p className="">ReactJS</p>
+            </div>
+
+            <div className="flex space-x-3 justify-left  items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
               <Image
                 className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
@@ -68,6 +86,10 @@ export default function AboutPage() {
                 width={35}
                 height={35}
               />
+              <p className="">NodeJS</p>
+            </div>
+
+            <div className="flex space-x-3 justify-left  items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
               <Image
                 className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
@@ -75,12 +97,14 @@ export default function AboutPage() {
                 width={35}
                 height={35}
               />
+              <p className="">Git</p>
             </div>
           </div>
+        </div>
       </LeftArea>
       <div className="">
-          <ImgAstronaut width={600} />
-        </div>
+        <ImgAstronaut width={600} />
+      </div>
     </MainArea>
   );
 }
