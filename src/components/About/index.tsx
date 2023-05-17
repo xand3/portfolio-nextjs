@@ -1,4 +1,4 @@
-import Img from "../Image/index";
+import Img from "../Img/index";
 import Image from "next/image";
 
 const About = () => {
@@ -24,14 +24,14 @@ const About = () => {
               <p>My Stack:</p>
             </div>
             <div className="flex space-x-4 max-lg:space-x-2">
-            <Image
+              <Image
                 className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
                 alt="CSS3"
                 width={35}
                 height={35}
               />
-            <Image
+              <Image
                 className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                 alt="HTML5"
