@@ -16,8 +16,8 @@ export default function Home() {
           currently open to work.
         </p>
         <div className="flex flex-col py-5 max-lg:py-3">
-          <a href="" className="cool-link py-5">
-            see more about me
+          <a href="/about" className="py-5">
+            <p className="cool-link">see more about me</p>
           </a>
           <div className="flex space-x-3">
             <a href="https://github.com/xand3" target="_blank">

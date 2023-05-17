@@ -25,7 +25,7 @@ export default function AboutPage() {
             <div>
               <p>My Stack:</p>
             </div>
-            <div className="grid grid-cols-7 w-auto">
+            <div className="grid grid-cols-7 w-auto gap-2">
               <Image
                 className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
