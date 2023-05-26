@@ -2,11 +2,12 @@ import React from "react"
 
 type BoxProps = {
   children: React.ReactNode;
+  myClasses: string
 }
 
-const LeftArea = ({children}: BoxProps) => {
+const LeftArea = ({children, myClasses}: BoxProps) => {
   return (
-    <div className="flex flex-col justify-center col-start-1 col-end-3">
+    <div className={`${myClasses} flex flex-col col-start-1 col-end-3`}>
       {children}
     </div>
   )

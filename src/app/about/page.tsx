@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function AboutPage() {
   return (
     <MainArea>
-      <LeftArea>
+      <LeftArea myClasses = "justify-center">
         <h1 className="text-5xl font-light max-lg:text-2xl py-5">
           Hi! I&apos;m Alexandre Bastos
         </h1>

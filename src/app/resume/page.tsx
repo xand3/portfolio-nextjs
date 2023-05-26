@@ -5,7 +5,7 @@ import ImgAstronaut from "@/components/Img"
 export default function ResumePage() {
   return (
     <MainArea>
-      <LeftArea>
+      <LeftArea myClasses = "justify-center">
         <embed className="max-sm:h-72" src="/resume.pdf" type="application/pdf" width="100%" height="100%" />
       </LeftArea>
       <div>

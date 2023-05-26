@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function ContactPage() {
   return (
     <MainArea>
-      <LeftArea>
+      <LeftArea myClasses = "justify-center">
         <h1 className='text-5xl font-light max-lg:text-2xl py-5"'>Contact</h1>
         <p className="text-justify py-5">
           Feel free to get in touch with me through my social media or email.
