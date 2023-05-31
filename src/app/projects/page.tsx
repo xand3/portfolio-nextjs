@@ -12,16 +12,16 @@ export default function ProjectsPage() {
         
         <div className="grid grid-cols-2 grid-rows-2">
           <div className="h-8">
-            projeto 1
+            project 1
           </div>
           <div className="h-8">
-            projeto 2
+            project 2
           </div>
           <div>
-            projeto 3
+            project 3
           </div>
           <div>
-            projeto 4
+            project 4
           </div>
         </div>
       </LeftArea>
