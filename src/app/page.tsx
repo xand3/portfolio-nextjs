@@ -29,18 +29,7 @@ export default function Home() {
                 height={35}
               />
             </a>
-            <a
-              href="https://www.instagram.com/xande.log/?igshid=OTk0YzhjMDVlZA%3D%3D"
-              target="_blank"
-            >
-              <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-                src="/instagram.png"
-                alt="Instagram"
-                width={35}
-                height={35}
-              />
-            </a>
+
             <a
               href="https://www.linkedin.com/in/alexandr3-bastos/"
               target="_blank"

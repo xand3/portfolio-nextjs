@@ -37,19 +37,6 @@ export default function ContactPage() {
             />
           </a>
 
-          <a
-            href="https://www.instagram.com/xande.log/?igshid=OTk0YzhjMDVlZA%3D%3D"
-            target="_blank"
-          >
-            <Image
-              className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-              src="/instagram.png"
-              alt="Instagram"
-              width={50}
-              height={50}
-            />
-          </a>
-
           <a href="mailto:xande.dev@outlook.com" target="_blank">
             <Image
               className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"

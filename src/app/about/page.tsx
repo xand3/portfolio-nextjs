@@ -25,7 +25,7 @@ export default function AboutPage() {
             <p>My Stack:</p>
           </div>
 
-          <div className="grid grid-cols-2 w-auto gap-5">
+          <div className="grid grid-cols-3 w-auto gap-5">
             <div className="flex space-x-3 justify-left items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
               <Image
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -44,6 +44,16 @@ export default function AboutPage() {
                 height={35}
               />
               <p className="">CSS 3</p>
+            </div>
+
+            <div className="flex space-x-3 justify-left items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
+              <Image
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
+                alt="Java"
+                width={35}
+                height={35}
+              />
+              <p className="">Java</p>
             </div>
 
             <div className="flex space-x-3 justify-left items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
@@ -109,6 +119,17 @@ export default function AboutPage() {
                 height={35}
               />
               <p className="">Tailwind CSS</p>
+            </div>
+
+            <div className="flex space-x-3 justify-left  items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
+              <Image
+                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
+                alt="Git"
+                width={35}
+                height={35}
+              />
+              <p className="">PostgreSQL</p>
             </div>
 
           </div>
