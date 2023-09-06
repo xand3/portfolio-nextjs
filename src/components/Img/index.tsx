@@ -13,6 +13,7 @@ const ImgAstronaut = ({ width }: Props) => {
         alt="astrounaut"
         width={width}
         height={600}
+        priority={true}
       />
     </div>
   );
