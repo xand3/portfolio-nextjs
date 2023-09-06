@@ -1,12 +1,14 @@
+import Image from "next/image";
+
 import MainArea from "@/components/Main";
 import LeftArea from "@/components/LeftArea";
 import ImgAstronaut from "@/components/Img";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
     <MainArea>
-      <LeftArea myClasses = "justify-center">
+      <LeftArea myClasses="justify-center">
         <h1 className="text-5xl font-light max-lg:text-2xl py-5">
           Hi! I&apos;m Alexandre Bastos
         </h1>

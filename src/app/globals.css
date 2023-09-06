@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.cool-link {
+  display: inline-block;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #E9E5DD;
+  transition: width .5s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
