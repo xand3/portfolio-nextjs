@@ -7,7 +7,7 @@ type BoxProps = {
 
 const LeftArea = ({children, myClasses}: BoxProps) => {
   return (
-    <div className={`${myClasses} flex flex-col col-start-1 col-end-3`}>
+    <div className={`flex flex-col col-start-1 col-end-3 ${myClasses}`}>
       {children}
     </div>
   )
