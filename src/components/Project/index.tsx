@@ -37,19 +37,15 @@ const Project = ({
       </div>
 
       <div className="">
-        <a
-          href={`${projectLink}`}
-          target="_blank"
-        >
+        <a href={`${projectLink}`} target="_blank">
           <Image
-          className=""
-          src="/pokedex.png"
-          alt="Pokedex"
-          width={400}
-          height={0}
-        />
+            className=""
+            src="/pokedex.png"
+            alt="Pokedex"
+            width={400}
+            height={0}
+          />
         </a>
-        
       </div>
     </div>
   );
