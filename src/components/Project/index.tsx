@@ -6,6 +6,7 @@ type Props = {
   description: String;
   repositoryLink: String;
   projectLink: String;
+  imgSrc: String;
 };
 
 const Project = ({
@@ -13,10 +14,11 @@ const Project = ({
   description,
   repositoryLink,
   projectLink,
+  imgSrc,
 }: Props) => {
   return (
-    <div className="flex flex-row h-36">
-      <div className="flex flex-col">
+    <div className="grid grid-cols-2 ">
+      <div className="">
         <div>
           <a
             className="cool-link text-2xl my-2"
@@ -27,7 +29,7 @@ const Project = ({
           </a>
         </div>
 
-        <p className="">{description}</p>
+        <p className="text-justify mr-4">{description}</p>
 
         <div className="mt-4">
           <a className="cool-link" href={`${repositoryLink}`} target="_blank">
@@ -36,17 +38,18 @@ const Project = ({
         </div>
       </div>
 
-      <div className="">
+      <div className="grid grid-cols-1">
         <a
           href={`${projectLink}`}
           target="_blank"
         >
           <Image
-          className=""
-          src="/pokedex.png"
-          alt="Pokedex"
-          width={400}
-          height={0}
+            className="rounded-xl w-72 object-fill"
+            src={`${imgSrc}`}
+            alt="Pokedex"
+            width={0}
+            height={0}
+            sizes="100%"
         />
         </a>
         
