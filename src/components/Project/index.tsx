@@ -39,10 +39,7 @@ const Project = ({
       </div>
 
       <div className="grid grid-cols-1">
-        <a
-          href={`${projectLink}`}
-          target="_blank"
-        >
+        <a href={`${projectLink}`} target="_blank">
           <Image
             className="rounded-xl w-72 object-fill"
             src={`${imgSrc}`}
@@ -50,9 +47,8 @@ const Project = ({
             width={0}
             height={0}
             sizes="100%"
-        />
+          />
         </a>
-        
       </div>
     </div>
   );
