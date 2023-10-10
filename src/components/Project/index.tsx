@@ -17,7 +17,7 @@ const Project = ({
   imgSrc,
 }: Props) => {
   return (
-    <div className="grid grid-cols-2 ">
+    <div className="grid grid-cols-2 max-md:grid-cols-1 ">
       <div className="">
         <div>
           <a
@@ -27,9 +27,8 @@ const Project = ({
           >
             {title}
           </a>
+          <p className="text-justify mr-4">{description}</p>
         </div>
-
-        <p className="text-justify mr-4">{description}</p>
 
         <div className="mt-4">
           <a className="cool-link" href={`${repositoryLink}`} target="_blank">
