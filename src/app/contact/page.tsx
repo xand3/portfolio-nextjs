@@ -1,7 +1,7 @@
 import React from "react";
-import MainArea from "../../components/Main";
-import LeftArea from "../../components/LeftArea";
-import ImgAstronaut from "../../components/Img";
+import { MainArea } from "../../components/Main";
+import { LeftArea } from "../../components/LeftArea";
+import { ImgAstronaut } from "../../components/Img";
 import Image from "next/image";
 
 export default function ContactPage() {

@@ -4,7 +4,7 @@ type Props = {
   width: number;
 };
 
-const ImgAstronaut = ({ width }: Props) => {
+export const ImgAstronaut = ({ width }: Props) => {
   return (
     <div className="flex justify-center">
       <Image
@@ -18,5 +18,3 @@ const ImgAstronaut = ({ width }: Props) => {
     </div>
   );
 };
-
-export default ImgAstronaut;

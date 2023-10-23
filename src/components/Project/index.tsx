@@ -9,7 +9,7 @@ type Props = {
   imgSrc: String;
 };
 
-const Project = ({
+export const Project = ({
   title,
   description,
   repositoryLink,
@@ -52,5 +52,3 @@ const Project = ({
     </div>
   );
 };
-
-export default Project;

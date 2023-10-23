@@ -1,5 +1,4 @@
-
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <header>
       <nav className="h-16 py-3 max-lg:py-5 max-lg:px-3">
@@ -28,5 +27,3 @@ const Navbar = () => {
     </header>
   )
 }
-
-export default Navbar

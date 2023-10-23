@@ -1,8 +1,8 @@
 import React from "react";
-import MainArea from "../../components/Main";
-import LeftArea from "../../components/LeftArea";
-import ImgAstronaut from "../../components/Img";
-import Project from "@/components/Project";
+import { MainArea } from "../../components/Main";
+import { LeftArea } from "../../components/LeftArea";
+import { ImgAstronaut } from "../../components/Img";
+import { Project } from "@/components/Project";
 
 export default function ProjectsPage() {
   return (

@@ -1,6 +1,6 @@
-import MainArea from "@/components/Main"
-import LeftArea from "@/components/LeftArea"
-import ImgAstronaut from "@/components/Img"
+import { MainArea } from "@/components/Main"
+import { LeftArea } from "@/components/LeftArea"
+import { ImgAstronaut } from "@/components/Img"
 
 export default function ResumePage() {
   return (
