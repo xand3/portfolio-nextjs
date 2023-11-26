@@ -19,7 +19,7 @@ export default function ContactPage() {
           >
             <Image
               className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-              src="/linkedin.png"
+              src="/icons/linkedin.png"
               alt="linkedin"
               width={50}
               height={50}
@@ -29,7 +29,7 @@ export default function ContactPage() {
           <a href="https://twitter.com/xand3bastos" target="_blank">
             <Image
               className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-              src="/twitter.png"
+              src="/icons/twitter.png"
               alt="Twitter"
               width={50}
               height={50}
@@ -39,7 +39,7 @@ export default function ContactPage() {
           <a href="mailto:xande.dev@outlook.com" target="_blank">
             <Image
               className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-              src="/email.png"
+              src="/icons/email.png"
               alt="beacons"
               width={50}
               height={50}
@@ -49,7 +49,7 @@ export default function ContactPage() {
           <a href="https://github.com/xand3" target="_blank">
             <Image
               className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-              src="/GitHub.png"
+              src="/icons/GitHub.png"
               alt="GitHub"
               width={50}
               height={50}
