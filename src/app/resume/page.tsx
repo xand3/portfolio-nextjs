@@ -6,7 +6,7 @@ export default function ResumePage() {
   return (
     <MainArea>
       <LeftArea myClasses = "justify-center">
-        <embed className="max-sm:h-72" src="/resume.pdf" type="application/pdf" width="100%" height="100%" />
+        <embed className="max-sm:h-72" src="/doc/resume.pdf" type="application/pdf" width="100%" height="100%" />
       </LeftArea>
       <div>
         <ImgAstronaut width={600}/>

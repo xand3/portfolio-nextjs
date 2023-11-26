@@ -9,7 +9,7 @@ export const ImgAstronaut = ({ width }: Props) => {
     <div className="flex justify-center">
       <Image
         className="max-xl:w-tablet max-lg:w-64"
-        src="/astronaut.png"
+        src="/images/astronaut.png"
         alt="astrounaut"
         width={width}
         height={600}
