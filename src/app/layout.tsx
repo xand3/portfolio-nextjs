@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Alexandre Bastos',
-  description: 'Meu portfólio',
+  description: 'Meu portfólio'
 }
 
 export default function RootLayout({
@@ -16,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
+      <head>
+        <link rel="icon" href="/favicon/favicon.ico" />
+      </head>
       <body className={`${inter.className} bg-bluebg text-primarytext }`}>
         <Navbar />
         {children}
