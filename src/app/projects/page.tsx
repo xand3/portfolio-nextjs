@@ -9,7 +9,7 @@ export default function ProjectsPage() {
     <MainArea>
       <LeftArea myClasses="col-end-4 justify-items-stretch">
         <h1 className="text-5xl font-light max-lg:text-2xl py-5">
-          My Projects
+          My Projects: This page is under construction
         </h1>
 
         <div className={`grid grid-cols-2 grid-rows-auto gap-y-12 gap-x-8 max-sm:grid-cols-1 max-sm:gap-y-28`}>
