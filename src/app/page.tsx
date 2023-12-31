@@ -45,9 +45,8 @@ export default function Home() {
           </a>
           <div className="flex space-x-3">
             {socials.map((item) => (
-              <a href={item.href} target="_blank">
+              <a key={item.name} href={item.href} target="_blank">
                 <Image
-                  key={item.name}
                   className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                   src={item.src}
                   alt={item.name}

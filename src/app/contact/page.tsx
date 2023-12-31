@@ -37,9 +37,8 @@ export default function ContactPage() {
         </p>
         <div className="flex space-x-10">
           {socials.map((item) => (
-              <a href={item.href} target="_blank">
+              <a  key={item.name} href={item.href} target="_blank">
                 <Image
-                  key={item.name}
                   className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                   src={item.src}
                   alt={item.name}
