@@ -4,6 +4,29 @@ import { MainArea } from "@/components/Main";
 import { LeftArea } from "@/components/LeftArea";
 import { ImgAstronaut } from "@/components/Img";
 
+const socials = [
+  {
+    name: "GitHub",
+    src: "/icons/GitHub.png",
+    href: "https://github.com/xand3",
+  },
+  {
+    name: "linkedin",
+    src: "/icons/linkedin.png",
+    href: "https://www.linkedin.com/in/alexandr3-bastos/",
+  },
+  {
+    name: "E-mail",
+    src: "/icons/email.png",
+    href: "mailto:xande.dev@outlook.com",
+  },
+  {
+    name: "Beacons",
+    src: "/icons/links.png",
+    href: "https://beacons.ai/xande_dev",
+  },
+];
+
 export default function Home() {
   return (
     <MainArea>
@@ -21,55 +44,17 @@ export default function Home() {
             <p className="cool-link">see more about me</p>
           </a>
           <div className="flex space-x-3">
-            <a href="https://github.com/xand3" target="_blank">
-              <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-                src="/icons/GitHub.png"
-                alt="github"
-                width={35}
-                height={35}
-              />
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/alexandr3-bastos/"
-              target="_blank"
-            >
-              <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-                src="/icons/linkedin.png"
-                alt="linkedin"
-                width={35}
-                height={35}
-              />
-            </a>
-            <a href="https://twitter.com/xand3bastos" target="_blank">
-              <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-                src="/icons/twitter.png"
-                alt="Twitter"
-                width={35}
-                height={35}
-              />
-            </a>
-            <a href="mailto:xande.dev@outlook.com" target="_blank">
-              <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-                src="/icons/email.png"
-                alt="beacons"
-                width={35}
-                height={35}
-              />
-            </a>
-            <a href="https://beacons.ai/xande_dev" target="_blank">
-              <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-                src="/icons/links.png"
-                alt="beacons"
-                width={35}
-                height={35}
-              />
-            </a>
+            {socials.map((item) => (
+              <a href={item.href} target="_blank">
+                <Image
+                  className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
+                  src={item.src}
+                  alt={item.name}
+                  width={35}
+                  height={35}
+                />
+              </a>
+            ))}
           </div>
         </div>
       </LeftArea>
