@@ -4,6 +4,29 @@ import { LeftArea } from "../../components/LeftArea";
 import { ImgAstronaut } from "../../components/Img";
 import Image from "next/image";
 
+const socials = [
+  {
+    name: "GitHub",
+    src: "/icons/GitHub.png",
+    href: "https://github.com/xand3",
+  },
+  {
+    name: "linkedin",
+    src: "/icons/linkedin.png",
+    href: "https://www.linkedin.com/in/alexandr3-bastos/",
+  },
+  {
+    name: "E-mail",
+    src: "/icons/email.png",
+    href: "mailto:xande.dev@outlook.com",
+  },
+  {
+    name: "Beacons",
+    src: "/icons/links.png",
+    href: "https://beacons.ai/xande_dev",
+  },
+];
+
 export default function ContactPage() {
   return (
     <MainArea>
@@ -13,48 +36,18 @@ export default function ContactPage() {
           Feel free to get in touch with me through my social media or email.
         </p>
         <div className="flex space-x-10">
-          <a
-            href="https://www.linkedin.com/in/alexandr3-bastos/"
-            target="_blank"
-          >
-            <Image
-              className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-              src="/icons/linkedin.png"
-              alt="linkedin"
-              width={50}
-              height={50}
-            />
-          </a>
-
-          <a href="https://twitter.com/xand3bastos" target="_blank">
-            <Image
-              className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-              src="/icons/twitter.png"
-              alt="Twitter"
-              width={50}
-              height={50}
-            />
-          </a>
-
-          <a href="mailto:xande.dev@outlook.com" target="_blank">
-            <Image
-              className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-              src="/icons/email.png"
-              alt="beacons"
-              width={50}
-              height={50}
-            />
-          </a>
-
-          <a href="https://github.com/xand3" target="_blank">
-            <Image
-              className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-              src="/icons/GitHub.png"
-              alt="GitHub"
-              width={50}
-              height={50}
-            />
-          </a>
+          {socials.map((item) => (
+              <a href={item.href} target="_blank">
+                <Image
+                  key={item.name}
+                  className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
+                  src={item.src}
+                  alt={item.name}
+                  width={35}
+                  height={35}
+                />
+              </a>
+            ))}
         </div>
       </LeftArea>
       <div>
