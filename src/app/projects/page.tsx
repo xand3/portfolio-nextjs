@@ -5,6 +5,14 @@ import { Project } from "@/components/Project";
 
 const projects = [
   {
+    title: "Finance App",
+    imgSrc: "/images/jogo.png",
+    description:
+      "In this project, I developed the front-end of a personal finance management application using React.js/Next.js and Tailwind CSS.  the goal is to create a user-friendly and intuitive interface for users to effectively manage their financial activities.",
+    repositoryLink: "https://github.com/xand3/finance-app",
+    projectLink: "https://finances-seven-tau.vercel.app/",
+  },
+  {
     title: "Codificador",
     imgSrc: "/images/codificador.png",
     description:
@@ -19,7 +27,7 @@ const projects = [
       "In this challenge during the Oracle training, I had to develop a Hangman game using HTML and CSS to create the project's layout and JavaScript to implement the game logic.",
     repositoryLink: "https://github.com/xand3/JogoDaForca-Challenge-Oracle",
     projectLink: "https://xand3.github.io/JogoDaForca-Challenge-Oracle/",
-  },
+  }
 ];
 
 export default function ProjectsPage() {
