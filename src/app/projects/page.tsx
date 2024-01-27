@@ -6,7 +6,7 @@ import { Project } from "@/components/Project";
 const projects = [
   {
     title: "Finance App",
-    imgSrc: "/images/jogo.png",
+    imgSrc: "/images/finance-app.png",
     description:
       "In this project, I developed the front-end of a personal finance management application using React.js/Next.js and Tailwind CSS.  the goal is to create a user-friendly and intuitive interface for users to effectively manage their financial activities.",
     repositoryLink: "https://github.com/xand3/finance-app",
