@@ -4,10 +4,57 @@ import { LeftArea } from "@/components/LeftArea";
 import { ImgAstronaut } from "@/components/Img";
 import Image from "next/image";
 
+const tecnologies = [
+  {
+    name: "HTML 5",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  },
+  {
+    name: "CSS 3",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  },
+  {
+    name: "Java",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg",
+  },
+  {
+    name: "JavaScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  },
+  {
+    name: "TypeScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  },
+  {
+    name: "ReactJS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+  },
+  {
+    name: "NodeJS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+  },
+  {
+    name: "Git",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+  },
+  {
+    name: "NEXT.js",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+  },
+  {
+    name: "PostgreSQL",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg",
+  },
+];
+
 export default function AboutPage() {
   return (
     <MainArea>
-      <LeftArea myClasses = "justify-center">
+      <LeftArea myClasses="justify-center">
         <h1 className="text-5xl font-light max-lg:text-2xl py-5">
           Hi! I&apos;m Alexandre Bastos
         </h1>
@@ -26,112 +73,19 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-3 w-auto gap-5 max-sm:grid-cols-2">
-            <div className="flex space-x-3 justify-left items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
-              <Image
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                alt="HTML5"
-                width={35}
-                height={35}
-              />
-              <p className="">HTML 5</p>
-            </div>
-
-            <div className="flex space-x-3 justify-left items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
-              <Image
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                alt="CSS3"
-                width={35}
-                height={35}
-              />
-              <p className="">CSS 3</p>
-            </div>
-
-            <div className="flex space-x-3 justify-left items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
-              <Image
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
-                alt="Java"
-                width={35}
-                height={35}
-              />
-              <p className="">Java</p>
-            </div>
-
-            <div className="flex space-x-3 justify-left items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
-              <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                alt="JavaScript"
-                width={35}
-                height={35}
-              />
-              <p className="">JavaScript</p>
-            </div>
-
-            <div className="flex space-x-3 justify-left  items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
-              <Image
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-                alt="TypeScript"
-                width={35}
-                height={35}
-              />
-              <p className="">TypeScript</p>
-            </div>
-
-            <div className="flex space-x-3 justify-left  items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
-              <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-                alt="Reactjs"
-                width={35}
-                height={35}
-              />
-              <p className="">ReactJS</p>
-            </div>
-
-            <div className="flex space-x-3 justify-left  items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
-              <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                alt="NodeJS"
-                width={35}
-                height={35}
-              />
-              <p className="">NodeJS</p>
-            </div>
-
-            <div className="flex space-x-3 justify-left  items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
-              <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                alt="Git"
-                width={35}
-                height={35}
-              />
-              <p className="">Git</p>
-            </div>
-
-            <div className="flex space-x-3 justify-left  items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
-              <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-                alt="Git"
-                width={35}
-                height={35}
-              />
-              <p className="">Tailwind CSS</p>
-            </div>
-
-            <div className="flex space-x-3 justify-left  items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
-              <Image
-                className="ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
-                alt="Git"
-                width={35}
-                height={35}
-              />
-              <p className="">PostgreSQL</p>
-            </div>
-
+            {tecnologies.map((item, index) => (
+              <div key={index} className="flex space-x-3 justify-left items-center ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 cursor-pointer">
+                <div className="flex items-center">
+                  <Image
+                    src={item.icon}
+                    width={50}
+                    height={50}
+                    alt={item.name}
+                  />
+                  <p className="text-md mx-2">{item.name}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </LeftArea>
