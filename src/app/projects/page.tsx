@@ -3,18 +3,26 @@ import { MainArea } from "../../components/Main";
 import { LeftArea } from "../../components/LeftArea";
 import { Project } from "@/components/Project";
 
-const projects = [
+type Project = {
+  title: string;
+  imgSrc: string;
+  description: string;
+  repositoryLink: string;
+  projectLink: string;
+};
+
+const projects: Array<Project> = [
   {
-    title: "Finance App",
-    imgSrc: "/images/finance-app.png",
+    title: "Stock Pro",
+    imgSrc: "/images/projects/stock-pro.png",
     description:
-      "In this project, I developed the front-end of a personal finance management application using React.js/Next.js and Tailwind CSS.  the goal is to create a user-friendly and intuitive interface for users to effectively manage their financial activities.",
-    repositoryLink: "https://github.com/xand3/finance-app",
-    projectLink: "https://finances-seven-tau.vercel.app/",
+      "This is a freelance project for a commercial automation application that allows managing products, generating reports, and purchase orders. The application was developed using React.js, Next.js, TailwindCSS, and Material UI.",
+    repositoryLink: "https://alexandres-organization-7.gitbook.io/stock_pro",
+    projectLink: "https://alexandres-organization-7.gitbook.io/stock_pro",
   },
   {
     title: "Codificador",
-    imgSrc: "/images/codificador.png",
+    imgSrc: "/images/projects/codificador.png",
     description:
       "In this challenge during the Oracle training, I had to develop a text encoder using HTML and CSS to build the project's layout, and JavaScript to implement the encryption logic.",
     repositoryLink: "https://github.com/xand3/Codificador-Challenge-Oracle",
@@ -22,12 +30,12 @@ const projects = [
   },
   {
     title: "Jogo da forca",
-    imgSrc: "/images/jogo-da-forca.png",
+    imgSrc: "/images/projects/jogo-da-forca.png",
     description:
       "In this challenge during the Oracle training, I had to develop a Hangman game using HTML and CSS to create the project's layout and JavaScript to implement the game logic.",
     repositoryLink: "https://github.com/xand3/JogoDaForca-Challenge-Oracle",
     projectLink: "https://xand3.github.io/JogoDaForca-Challenge-Oracle/",
-  }
+  },
 ];
 
 export default function ProjectsPage() {
